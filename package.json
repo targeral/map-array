@@ -1,0 +1,42 @@
+{
+  "name": "map-array-g",
+  "version": "1.0.0",
+  "description": "Map object keys and values into an array",
+  "main": "main.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "rollup -c && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/targeral/map-array.git"
+  },
+  "keywords": [
+    "iterate",
+    "iterator",
+    "key",
+    "keys",
+    "map",
+    "arr",
+    "array",
+    "val",
+    "value",
+    "values"
+  ],
+  "author": "targeral",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/targeral/map-array/issues"
+  },
+  "homepage": "https://github.com/targeral/map-array#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "rollup": "^0.52.0",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "xo": "^0.20.3"
+  },
+  "dependencies": {
+    "rollup-plugin-buble": "^0.18.0"
+  }
+}
